@@ -15,8 +15,15 @@ public class RollTheDice {
         int sixCounter = 0;
         int sevenCounter = 0;
 
+        for (int i = 1; i <= 100; i++) {
+
+            int sum = roll1 + roll2;
+
+            System.out.println("Roll " + i + ": " + roll1 + " - " + roll2 + "  Sum: " + sum);
+
+
+        }
+
     }
-
-
-
 }
+
