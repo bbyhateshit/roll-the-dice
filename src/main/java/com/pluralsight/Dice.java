@@ -1,9 +1,12 @@
 package com.pluralsight;
 
+import java.awt.print.Printable;
+import java.sql.SQLOutput;
+
 public class Dice {
 
-public int roll() {
-    return (int)(Math.random() * 6) + 1;
-    }
+    public int roll() {
+        return (int)(Math.random() * 6) + 1;
+}
 }
 
